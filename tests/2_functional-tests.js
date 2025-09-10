@@ -72,8 +72,7 @@ suite("Functional Tests", function () {
 
 const Browser = require("zombie");
 
-Browser.site =
-  "https://c8dc5311-df4a-4bcc-a806-6c73051d07e7-00-2izpsjipni2c3.sisko.replit.dev/";
+Browser.site = "http://0.0.0.0:3000/";
 
 const browser = new Browser();
 
