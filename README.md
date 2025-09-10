@@ -1,3 +1,13 @@
-# Quality Assurance with Chai
+# FreeCodeCamp Quality Assurance Tests
 
-This is the boilerplate for the Quality Assurance with Chai lessons. Instructions for completing these lessons start at https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-and-testing-with-chai/
+This repository contains my solutions for the **Quality Assurance and Testing with Chai** certification on [FreeCodeCamp](https://www.freecodecamp.org/).
+
+## 📂 Project Structure
+- `tests/` – Unit and functional tests
+- `public/` – Static files
+- `server.js` – Project entry point
+
+## 🚀 How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Jajangmyeon01/fcc-qa-tests.git
