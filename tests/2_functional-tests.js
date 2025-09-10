@@ -72,8 +72,12 @@ suite("Functional Tests", function () {
 
 const Browser = require("zombie");
 
+Browser.site =
+  "https://c8dc5311-df4a-4bcc-a806-6c73051d07e7-00-2izpsjipni2c3.sisko.replit.dev/";
+
+const browser = new Browser();
+
 suite("Functional Tests with Zombie.js", function () {
-  const browser = new Browser();
   this.timeout(5000);
 
   suiteSetup(function (done) {
@@ -82,7 +86,7 @@ suite("Functional Tests with Zombie.js", function () {
 
   suite("Headless browser", function () {
     test('should have a working "site" property', function () {
-      assert.isNotNull("browser.site");
+      assert.isNotNull(browser.site);
     });
   });
 
