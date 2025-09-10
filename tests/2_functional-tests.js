@@ -62,6 +62,7 @@ suite("Functional Tests", function () {
           assert.equal(res.status, 200);
           assert.equal(res.type, "application/json");
           assert.equal(res.body.name, "Giovanni");
+          essert.equal(res.body.surname, "da Verrazzano");
           assert.equal(res.body.dates, "1485 - 1528");
           done();
         });
